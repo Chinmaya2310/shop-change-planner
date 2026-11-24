@@ -1,6 +1,6 @@
 # Change shortage at a small shop
 
-**Person:** Rajeev Gupta, general store shopkeeper  **Place:** not confirmed  **Date seen:** no observation recorded
+**Person:** Rajeev Gupta, general store shopkeeper  **Place:** general store near IIIT Allahabad  **Date seen:** no observation recorded
 
 ## Problem in 5 lines
 1. Rajeev Gupta, a general store shopkeeper, told me he has this problem (from memory).
