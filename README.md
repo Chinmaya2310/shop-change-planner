@@ -3,7 +3,7 @@ Suggests which coins and notes a shop should keep ready.
 
 Intended for: small general stores. One shopkeeper, Rajeev Gupta, said he has
 this problem (gist from memory). No timed visit was done.
-Data: 21 real payments, 24 Aug to 23 Nov 2026; shop or shops not specified.
+Data: 21 real payments, 24 Aug to 23 Nov 2026.
 
 ## Run
     python3 tool.py
