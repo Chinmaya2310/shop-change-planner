@@ -1,15 +1,12 @@
 # Shop change planner
 Suggests which coins and notes a shop should keep ready.
 
-**Practice project. No fieldwork was done. The 21 bill amounts are real payments; the shop or shops are not specified.**
-
-## Example user (fictional)
-Rajeev is an invented general store owner, used to explain the tool. No visit or interview took place.
-A customer hands him Rs 500 for a Rs 35 bill, then another does the same, and his Rs 200 and Rs 50
-notes run out first. The tool reads past bill amounts and suggests what to keep ready.
+Intended for: small general stores. No shopkeeper was visited or interviewed.
+Data: 21 real payments, 24 Aug to 23 Nov 2026; shop or shops not specified.
 
 ## Run
     python3 tool.py
+    python3 drawer.py 200x2,100x2,50x3,20x5,10x5,5x4
     python3 test_tool.py
 
 ## Output on data.csv
@@ -26,6 +23,14 @@ Keep ready: 20 x Rs 200, 7 x Rs 50, 11 x Rs 20, 5 x Rs 10, 2 x Rs 5
 
 All 21 bills are multiples of Rs 5, so the tool never suggests Rs 1 or Rs 2 coins.
 This may not hold for any real shop.
+
+## How long a drawer lasts
+The drawer below is an example, not a real shop's cash. Bills run in data.csv order.
+```
+All pay with Rs 50: 7 bills served, then cannot give Rs 40
+All pay with Rs 100: 4 bills served, then cannot give Rs 90
+All pay with Rs 500: 1 bills served, then cannot give Rs 460
+```
 
 ## What it gets wrong
 - The rows are 21 payments, not a shop's full sales records.

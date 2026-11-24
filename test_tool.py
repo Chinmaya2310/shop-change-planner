@@ -1,5 +1,6 @@
 """Rows here are made up for testing only. Real rows are in data.csv."""
 import contextlib, io, os, tempfile, unittest
+import drawer
 import tool
 
 HEAD = "id,date,time,amount,notes\n"
@@ -42,5 +43,20 @@ class T(unittest.TestCase):
         with contextlib.redirect_stdout(io.StringIO()) as o:
             self.assertEqual(tool.main("/nonexistent.csv"), 1)
         self.assertIn("Cannot read", o.getvalue())
+
+class D(unittest.TestCase):
+    def test_pay_beyond_greedy(self):
+        self.assertEqual(+drawer.pay(60, drawer.parse("50x1,20x3")), {20: 3})
+        self.assertIsNone(drawer.pay(60, drawer.parse("50x1")))
+
+    def test_replay(self):
+        self.assertEqual(drawer.replay([40, 40], 50, drawer.parse("10x1")), (1, 10))
+        self.assertEqual(drawer.replay([450, 400], 500, drawer.parse("50x3")), (2, None))
+        self.assertEqual(drawer.replay([100], 100, {}), (1, None))
+
+    def test_bad_drawer(self):
+        with contextlib.redirect_stdout(io.StringIO()):
+            for text in ["", "abc", "7x2", "50x-1"]:
+                self.assertEqual(drawer.main([text]), 1)
 
 unittest.main()
