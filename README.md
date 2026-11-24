@@ -36,7 +36,8 @@ All pay with Rs 500: 1 bills served, then cannot give Rs 460
 - The rows are 21 payments, not a shop's full sales records.
 - A UPI bill may differ from what people buy with cash.
 - It assumes everyone pays with one kind of note and never offers coins.
-- It ignores change that comes in from customers during the day.
+- tool.py ignores notes that come in from customers. drawer.py reuses them, but assumes
+  every customer pays with the same kind of note and runs bills in data.csv order.
 - It has not been checked with any shopkeeper.
 
 Video: not recorded
