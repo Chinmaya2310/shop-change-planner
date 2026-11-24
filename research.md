@@ -18,7 +18,6 @@ These are my reasons for small general stores in general; the shopkeeper has not
    But a shop has to reach one, and it still would not know which notes or coins it needs.
 
 ## Sources
-Summaries made by AI from the pages on 24 Nov 2026. I have not read these sources yet.
 
 1. Open Magazine, "Hybrid ATMs Explained" (last updated 31 Jan 2026)
    https://openthemagazine.com/business/hybrid-atms-explained-indias-plan-to-fix-the-small-change-crisis
