@@ -1,7 +1,8 @@
 # Shop change planner
 Suggests which coins and notes a shop should keep ready.
 
-Intended for: small general stores. No shopkeeper was visited or interviewed.
+Intended for: small general stores. One shopkeeper, Rajeev Gupta, said he has
+this problem (gist from memory). No timed visit was done.
 Data: 21 real payments, 24 Aug to 23 Nov 2026; shop or shops not specified.
 
 ## Run
@@ -38,6 +39,6 @@ All pay with Rs 500: 1 bills served, then cannot give Rs 460
 - It assumes everyone pays with one kind of note and never offers coins.
 - tool.py ignores notes that come in from customers. drawer.py reuses them, but assumes
   every customer pays with the same kind of note and runs bills in data.csv order.
-- It has not been checked with any shopkeeper.
+- No shopkeeper has tried it.
 
 Video: not recorded
