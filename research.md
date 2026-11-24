@@ -14,12 +14,20 @@ These are my reasons for small general stores in general; no shopkeeper has conf
 
 1. **UPI QR payments.** A UPI payment needs no change. But the shop cannot make every customer
    use it, and it does not help with those who pay cash or show which notes will run out.
-2. **RBI Mobile Coin Vans and coin melas.** They supply coins and exchange small notes. But the
-   shop has to find and reach one, and they do not say which notes it needs or how many.
+2. **Coin melas.** These are events for getting coins; AIRBEA asked the RBI to revive them (source 2).
+   But a shop has to reach one, and it still would not know which notes or coins it needs.
 
-## Sources (candidates: read two, then write your own 3-line notes)
-- RBI 2024-25 Annual Report, currency management: https://website.rbi.org.in/documents/87730/137617290/VIIICurrencyManagement29052025.pdf/075b1a08-16ed-1c0b-f009-101e27feb072
-- Open Magazine, hybrid ATMs and small change: https://openthemagazine.com/business/hybrid-atms-explained-indias-plan-to-fix-the-small-change-crisis
+## Sources
+Summaries made by AI from the pages on 24 Nov 2026. I have not read these sources yet.
 
-Note 1: TODO
-Note 2: TODO
+1. Open Magazine, "Hybrid ATMs Explained" (last updated 31 Jan 2026)
+   https://openthemagazine.com/business/hybrid-atms-explained-indias-plan-to-fix-the-small-change-crisis
+   - It reports an acute shortage of small notes, with shopkeepers struggling to break Rs 500 notes.
+   - The government is evaluating small-note machines, hybrid ATMs and more small-value printing.
+   - A pilot in Mumbai is testing low-denomination dispensing machines.
+
+2. PTI via Devdiscourse, on the RBI employees' association AIRBEA (15 Dec 2025)
+   https://www.devdiscourse.com/article/law-order/3731364-airbea-flags-acute-shortage-of-small-denomination-notes-seeks-rbi-intervention
+   - AIRBEA said Rs 10, 20 and 50 notes are "almost unavailable" in many, especially semi-urban and rural, areas.
+   - It said the shortage is hurting small businesses.
+   - It asked the RBI to revive coin melas in urban and rural areas.
